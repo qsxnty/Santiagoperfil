@@ -1,0 +1,28 @@
+
+
+
+
+
+.personal-info {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.personal-info th, .personal-info td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.personal-info th {
+    background-color: #292b29;
+    color: white;
+}
+
+.personal-info tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.personal-info tr:hover {
+    background-color: #ddd;
+}

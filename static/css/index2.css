@@ -1,0 +1,27 @@
+
+
+
+/* Contenedor de los botones */
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilo de los botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Estilo de los botones al pasar el ratón sobre ellos */
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
